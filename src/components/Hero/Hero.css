@@ -1,0 +1,558 @@
+.hero-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.hero-container img {
+  width: 100%;
+}
+
+.heading {
+  position: absolute;
+  top: 6rem;
+  left: 10rem;
+}
+
+.heading h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #537292;
+}
+
+.heading .para {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.heading .para p {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #537292;
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.btn {
+  margin-top: 4rem;
+}
+
+.btn button {
+  padding: 1rem;
+  background: none;
+  border: 0.1rem solid #537292;
+  color: #537292;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.btn button:hover {
+  color: white;
+  border: #01152a;
+  border-radius: 5px;
+  background: #01152a; /* Darker blue */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transform: scale(1.05); /* Slight scaling */
+  text-underline-offset: 0.2rem; /* Underline with offset */
+}
+
+/* .............section-2.............. */
+
+.teacher {
+  padding-block: 10rem;
+  padding-inline: 4rem;
+}
+
+.t-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.t-watch {
+  text-align: left;
+  padding-right: 2rem;
+  padding-left: 1rem;
+}
+
+.t-watch h2 {
+  font-family: "Cardo", sans-serif;
+  font-weight: 0;
+  font-style: normal;
+  color: #537292;
+}
+
+.t-watch h3 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #537292;
+  font-size: 2.4rem;
+  margin-block: 2.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.t-watch p {
+  font-family: "Cardo";
+  letter-spacing: 0.2rem;
+  font-style: normal;
+  color: #537292;
+  font-size: 1rem;
+}
+
+.t-video {
+  padding: 3rem;
+  position: relative;
+}
+
+.t-video img {
+  border-radius: 50%;
+  height: 18rem;
+  padding-inline: 4rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 12)),
+    url(../assets/radhanath-swami-mumbai.jpg);
+}
+
+.t-video i {
+  position: absolute;
+  top: 9.5rem;
+  right: 14rem;
+  font-size: 4rem;
+  color: rgb(238, 221, 221);
+}
+
+.t-content p {
+  font-family: "Cardo", serif;
+  font-style: normal;
+  color: #6a7984;
+  text-align: left;
+  font-size: 2rem;
+  letter-spacing: 2.6px;
+}
+
+.t-content h3 {
+  font-family: "Cardo", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #537292;
+  margin-block: 2rem;
+  text-align: left;
+  letter-spacing: 0.2rem;
+}
+
+/* -----------section-3 feature------------ */
+.feature {
+  background-image: url(../assets/radhanath-swami-projects-worldwide.webp);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.overlay h2 {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #f6f2e8;
+  margin-block: 1.5rem;
+  margin-top: 10rem;
+  font-size: 1.5rem;
+  margin-left: 30rem;
+}
+
+.overlay h3 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 0.1rem;
+  color: #f6f2e8;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  margin-left: 30rem;
+}
+
+.overlay h4 {
+  color: #f6f2e8;
+  margin-block: 2rem;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 30rem;
+}
+
+.f-content button {
+  padding: 1rem;
+  background: transparent;
+  border: 0.1rem solid white;
+  color: #f6f2e8;
+  margin-left: 30rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.f-content button:hover {
+  border: #01152a;
+  border-radius: 5px;
+  background: #01152a; /* Darker blue */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transform: scale(1.05); /* Slight scaling */
+  text-underline-offset: 0.2rem; /* Underline with offset */
+}
+
+.f-content {
+  margin-left: 10rem;
+}
+
+/* ---------section-4 radhanath------------- */
+
+.r-story {
+  background: url(../assets/about-sunset.webp);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.r-container {
+  margin-top: 2rem;
+  margin-left: 25rem;
+}
+
+.r-content {
+  display: flex;
+  flex-direction: column;
+  color: #f6f2e8;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.r-content h2 {
+  margin: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.r-content h3 {
+  font-size: 1.7rem;
+  margin-bottom: 2.2rem;
+}
+
+.r-content p {
+  font-size: 1.3rem;
+  font-family: "cardo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 1rem;
+}
+
+.r-image img {
+  padding: 0.7rem;
+}
+
+.r-container button {
+  padding: 1rem;
+  background-color: #97ada5;
+  color: #f6f2e8;
+  border: 0.1rem solid #f6f2e8;
+  margin-block: 2rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.r-container button:hover {
+  border: #01152a;
+  border-radius: 5px;
+  background: #01152a; /* Darker blue */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transform: scale(1.05); /* Slight scaling */
+  text-underline-offset: 0.2rem; /* Underline with offset */
+}
+
+/* --------section-5 sarila------------ */
+
+.s-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.s-content {
+  text-align: left;
+}
+
+.s-content h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #537292;
+  font-size: 1.3rem;
+  letter-spacing: 0.3rem;
+  margin-block: 1rem;
+}
+
+.s-content h1 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #537292;
+  margin-block: 2rem;
+}
+
+.s-content p {
+  font-size: 1rem;
+  font-family: "cardo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.1rem;
+}
+
+.s-img img {
+  border-radius: 50%;
+  height: 20rem;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn button {
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  width: 15rem;
+}
+
+.s-img2 {
+  background-image: url(../assets/rns-smile-line-new.webp);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 1000;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* -------section-6 experience----------- */
+
+.experience {
+  height: 100vh;
+}
+
+.e-container {
+  background-image: url(../assets/rns-w.webp);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  top: -8rem;
+}
+
+.e-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15rem;
+  width: 100%;
+
+  text-align: center;
+}
+
+.e-content h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #214c77;
+  font-size: 1.3rem;
+  letter-spacing: 0.3rem;
+  margin-block: 0rem;
+}
+
+.e-content h1 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #214c77;
+  margin-block: 2rem;
+  font-size: 1.9rem;
+}
+
+.e-content p {
+  font-size: 1.2rem;
+  font-family: "cardo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #214c77;
+  letter-spacing: 0.1rem;
+}
+
+.e-content button {
+  padding: 1rem;
+  margin-block: 2rem;
+  width: 15rem;
+  background: transparent;
+  border: 0.1rem solid #f6f2e8;
+  color: #f6f2e8;
+  margin-left: 40rem;
+  border-radius: 5px;
+  transition: all 0.3s ease; /* Smooth transitions for all effects */
+  cursor: pointer;
+}
+.e-content button:hover {
+  background-color: #214c77;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transform: scale(1.05); /* Slight scaling */
+  text-underline-offset: 0.2rem; /* Underline with offset */
+}
+
+/* -----------section-7 signup--------------- */
+
+.signup {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sign-img {
+  /* position: relative;
+    top: 10.5rem;
+    left: 5rem; */
+}
+
+.sign-content {
+  /* margin-left: 20rem;
+  margin-top: 15rem; */
+}
+
+.sign-content h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #537292;
+  font-size: 1.3rem;
+  margin-block: 1rem;
+}
+
+.sign-content h1 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #537292;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.sign-content p {
+  font-family: "Cardo", sans-serif;
+  font-weight: 0;
+  font-style: normal;
+  color: #537292;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.sign-content .input {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-content .input input {
+  padding: 0.8rem;
+  margin-bottom: 0.3rem;
+  background-color: #e4e6e5;
+  border: none;
+  outline: none;
+}
+
+.sign-content .input button {
+  background-color: #31485f;
+  padding: 0.8rem;
+  color: #e4e6e5;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.sign-content .input button:hover {
+  border: #01152a;
+  border-radius: 5px;
+  background: #01152a; /* Darker blue */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transform: scale(1.05); /* Slight scaling */
+  text-underline-offset: 0.2rem; /* Underline with offset */
+}
+
+/* ---------section-8 thought----------- */
+
+.thought {
+  background-image: url(../assets/radhanatha-swami-activist.jpg);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+.thought-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.th-content {
+  margin-top: 10rem;
+  margin-left: 10rem;
+  text-align: left;
+}
+
+.th-content h2 {
+  font-family: "Cardo", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #ffffff;
+  text-align: left;
+  line-height: 3rem;
+  letter-spacing: 0.15rem;
+  margin-bottom: 3rem;
+}
+
+.th-content h3 {
+  font-weight: 900;
+  font-family: "Cardo", serif;
+  font-style: normal;
+  color: #f6f2e8;
+  font-size: 1.5rem;
+}

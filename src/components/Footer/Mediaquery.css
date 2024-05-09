@@ -1,0 +1,47 @@
+/* --------Media-queries-480px------- */
+
+@media (max-width: 480px) {
+  .footer {
+    width: 100%;
+    height: auto;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    margin-right: 5rem;
+  }
+  .f-container1 img {
+    width: 15rem;
+  }
+  .f-container2 h2 {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .f-content1 p {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 0.7rem;
+  }
+  .f-content1 h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .checkbox {
+    font-size: 0.7rem;
+    margin-right: 2rem;
+    text-align: justify;
+  }
+  .f-btn button {
+    font-size: 0.8rem;
+    padding: 0.8rem;
+    margin-left: 3rem;
+  }
+  .share {
+    text-align: center;
+  }
+  .share h2 {
+    font-size: 1.1rem;
+  }
+}

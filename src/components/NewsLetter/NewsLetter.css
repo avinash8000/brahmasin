@@ -1,0 +1,128 @@
+.wisdom-img {
+  height: 100vh;
+  background-image: url(../assets/RNS-Newsletter-Header.jpg);
+}
+
+.wisdom-img h1 {
+  margin-left: 5rem;
+  padding-top: 10rem;
+  font-size: 3rem;
+  line-height: 4rem;
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #537292;
+}
+
+.wisdom-img p {
+  margin-left: 5rem;
+  padding-block: 0.5rem;
+  letter-spacing: 0.15rem;
+  color: #537292;
+}
+
+.w-content {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.w-content h1 {
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  line-height: 4rem;
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.2rem;
+  color: #537292;
+}
+
+.w-cont {
+  margin-top: 4rem;
+}
+
+.w-cont p {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #537292;
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.w-1,
+.w-2,
+.w-3 {
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+.w-content2 {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.w-content2 p {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.2rem;
+  color: #537292;
+}
+
+.w-content2 h2 {
+  margin-top: 2rem;
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #537292;
+  letter-spacing: 0.1rem;
+  font-size: 1.7rem;
+}
+.input-tag {
+  margin-top: 2rem;
+}
+
+.input-tag input {
+  padding: 0.5rem 2.8rem;
+  margin-right: 0.5rem;
+  background: transparent;
+  border: none;
+  border-bottom: 0.07rem solid #537292;
+}
+
+.checkbox2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.checkbox2 p {
+  letter-spacing: 0.1rem;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+}
+
+.w-content2 button {
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 33rem;
+  background-color: #537292;
+  color: #ffffff;
+  font-size: 1.2rem;
+  border: none;
+}
+
+.nf-img {
+  background-image: url(../assets/RNS-Newsletter-Footer-1.jpg);
+  height: 150vh;
+}

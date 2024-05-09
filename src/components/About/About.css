@@ -1,0 +1,463 @@
+.about-img1 {
+  background-image: url(../assets/radhanathswami-about.webp);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.about-content1 {
+  margin: 10rem;
+}
+
+.about-content1 h1 {
+  font-size: 3.5rem;
+  line-height: 4rem;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  margin-block: 1.5rem;
+}
+
+.about-content1 p {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  line-height: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.about-img2 {
+  background-image: url(../assets/radhanath-swami-mountain.webp);
+  height: 200vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.about-content2 {
+  margin-top: 12rem;
+  margin-left: 15rem;
+}
+
+.about-content2 h1 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  margin-block: 4rem;
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.about-content2 h2 {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #f6f2e8;
+}
+
+.about-content2 p {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  line-height: 1.8rem;
+  letter-spacing: 0.1rem;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
+
+.about-img3 {
+  background-image: url(../assets/radhanath-swami-lecture-speach.jpg);
+  height: 120vh;
+  background-size: cover;
+  display: flex;
+}
+
+.about-img3 .about-content3 {
+  margin-top: 17rem;
+  margin-left: 10rem;
+  text-align: left;
+}
+
+.about-content3 h2 {
+  margin-bottom: 2rem;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #f6f2e8;
+}
+
+.about-content3 h1 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.about-img4 {
+  width: 100%;
+}
+
+.about-content4 {
+  height: 100vh;
+  padding: 5rem;
+}
+
+.about-cont {
+  text-align: left;
+  position: relative;
+}
+
+.about-cont h1 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #31485f;
+  line-height: 3.5rem;
+  letter-spacing: 0.2rem;
+  font-size: 2.5rem;
+}
+
+.about-cont p {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #31485f;
+  line-height: 1.8rem;
+  letter-spacing: 0.1rem;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
+
+.about-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slide {
+  width: 70%;
+}
+
+.slide img {
+  width: 70%;
+}
+
+.slide-img {
+  display: flex;
+}
+
+.slide-img img {
+  width: 8rem;
+  margin-right: 0.5rem;
+  border: 0.2rem solid #97ada5;
+}
+
+.abt-imgs {
+  height: 100vh;
+  width: 100%;
+}
+
+.abt-imgs img {
+  width: 100%;
+}
+
+.about-img6 {
+  position: relative;
+}
+
+.ab-gl-img1 {
+  position: absolute;
+  top: 24rem;
+  left: 3rem;
+}
+
+.gl-content {
+  text-align: left;
+  position: absolute;
+  top: 24rem;
+  left: 50%;
+}
+
+.gl-content h1 {
+  font-size: 2.5rem;
+  line-height: 4rem;
+  letter-spacing: 0.1rem;
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #537292;
+}
+
+.gl-content p {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #537292;
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+  margin-block: 2rem;
+  font-size: 1.1rem;
+}
+
+.gl-content h3 {
+  font-size: 1.5rem;
+  line-height: 4rem;
+  letter-spacing: 0.1rem;
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #537292;
+}
+
+.ab-gl-img2 {
+  position: absolute;
+  top: 55rem;
+  left: 47%;
+}
+
+.ab-gl-img2 img {
+  width: 18rem;
+}
+
+.ab-gl-img3 {
+  position: absolute;
+  top: 60rem;
+  left: 18%;
+}
+
+.ab-gl-img3 img {
+  width: 20rem;
+}
+
+.ab-gl-img4 {
+  position: absolute;
+  top: 70rem;
+  left: 47%;
+}
+
+.ab-gl-img4 img {
+  width: 18rem;
+}
+
+.ab-gl-img5 {
+  position: absolute;
+  top: 57rem;
+  left: 73%;
+}
+
+.ab-gl-img5 img {
+  width: 18rem;
+}
+
+.about-img7 {
+  height: 100vh;
+  position: absolute;
+  top: 80%;
+}
+
+.about-img7 {
+  height: 100vh;
+  position: absolute;
+  top: 100rem;
+  left: 73%;
+}
+
+.obama {
+  position: relative;
+}
+
+.obamaimg {
+  position: absolute;
+  top: 90rem;
+  width: 100%;
+}
+
+.obamaimg img {
+  width: 100%;
+}
+
+.obama-content {
+  position: absolute;
+  top: 15rem;
+  left: 45rem;
+  line-height: 2rem;
+  color: #f6f2e8;
+}
+
+.obama-content h2 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.1rem;
+}
+
+.obama-content h1 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.philanthropist {
+  position: relative;
+}
+
+.ph-container {
+  position: absolute;
+  top: 131rem;
+  width: 100%;
+  background-color: #98abb2;
+  display: flex;
+  justify-content: space-around;
+  padding-block: 3rem;
+}
+
+.ph-container .ph-img {
+  margin-top: 5rem;
+}
+
+.ph-container .ph-content {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.ph-content h1 {
+  font-size: 2.7rem;
+  line-height: 4rem;
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  letter-spacing: 0.1rem;
+}
+
+.ph-content p {
+  text-align: left;
+  letter-spacing: 0.1rem;
+  line-height: 1.5rem;
+  margin-top: 2rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.ph-content button {
+  margin-top: 3rem;
+  padding: 1rem;
+  width: 10rem;
+  background: transparent;
+  border: 0.1rem solid #ffffff;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.p-contaier3 {
+  width: 100%;
+  height: 100vh;
+}
+
+.award {
+  position: relative;
+  background-color: #537292;
+}
+
+.award-container {
+  position: absolute;
+  top: 171rem;
+  width: 100%;
+  height: 100vh;
+}
+
+.award-container img {
+  height: 100vh;
+  width: 100%;
+  margin-top: 0rem;
+  background-image: url("../assets/award.webp");
+  background-size: cover;
+}
+
+.award-content {
+  margin-top: 8rem;
+}
+
+.award-content h1 {
+  font-size: 2rem;
+  line-height: 4rem;
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.wining {
+  position: relative;
+}
+
+.win-container {
+  position: absolute;
+  top: 210rem;
+  display: flex;
+  justify-content: space-around;
+
+  width: 100%;
+}
+
+.win-container .win-img img {
+  height: 28rem;
+
+  margin-top: 5rem;
+}
+
+.win-container .win-content {
+  margin-top: 5rem;
+}
+
+.win-content h1 {
+  font-size: 2.5rem;
+  line-height: 4rem;
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #537292;
+}
+
+.win-content p {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #537292;
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.win-content button {
+  margin-top: 3rem;
+  padding: 1rem;
+  background: transparent;
+  color: #537292;
+  border: 0.1rem solid #537292;
+  font-size: 1rem;
+}

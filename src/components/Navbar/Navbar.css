@@ -1,0 +1,135 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1rem;
+  font-family: sans-serif;
+  background-color: #f6f2e8;
+}
+.logo img {
+  width: 18rem;
+}
+.nav a {
+  padding: 2rem 1rem;
+  text-decoration: none;
+  color: #537292;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+/* ---------resources--------- */
+.resources {
+  display: none;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f6f2e8;
+}
+.res-con-1 {
+  display: flex;
+  flex-direction: column;
+}
+.res-con-1 h1 {
+  font-size: 1.5rem;
+  font-family: "Quicksand", sans-serif;
+  color: darkslategray;
+  line-height: 4rem;
+}
+
+.res-con-2 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.res-con-3 {
+  display: flex;
+  flex-direction: column;
+}
+.res-con-3 p {
+  font-size: 1.2rem;
+  font-family: "Cardo", serif;
+  color: rgb(125, 125, 125);
+  margin-top: 5rem;
+  letter-spacing: 0.06rem;
+  line-height: 1.8rem;
+}
+
+.res-con-3 button {
+  width: 9rem;
+  padding: 0.7rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  font-size: 0.9rem;
+  border-radius: 0.7rem;
+  border: 1px solid gray;
+  transition: all 0.3s ease; /* Smooth transitions for all effects */
+}
+
+.res-con-3 button:hover {
+  background: #005bb5; /* Darker blue */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transform: scale(1.05); /* Slight scaling */
+  text-underline-offset: 0.2rem; /* Underline with offset */
+}
+
+/* -------initiatives--------- */
+
+.initiatives {
+  display: none;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+.ini-con-1 {
+  display: flex;
+  flex-direction: column;
+}
+.ini-con-1 h1 {
+  font-size: 1.5rem;
+  font-family: "Quicksand", sans-serif;
+  color: darkslategray;
+  line-height: 4rem;
+}
+
+.ini-con-2 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.ini-con-3 {
+  display: flex;
+  flex-direction: column;
+}
+.ini-con-3 p {
+  font-size: 1.2rem;
+  font-family: "Cardo", serif;
+  color: rgb(125, 125, 125);
+  margin-top: 5rem;
+  letter-spacing: 0.06rem;
+  line-height: 1.8rem;
+}
+.ini-con-3 button {
+  width: 9rem;
+  padding: 0.7rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  font-size: 0.9rem;
+  border-radius: 0.7rem;
+  border: 1px solid gray;
+  transition: all 0.3s ease; /* Smooth transitions for all effects */
+}
+
+.ini-con-3 button:hover {
+  background: #005bb5; /* Darker blue */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transform: scale(1.05); /* Slight scaling */
+  text-underline-offset: 0.2rem; /* Underline with offset */
+}

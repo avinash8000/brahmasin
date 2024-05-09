@@ -1,0 +1,206 @@
+.get-img {
+  background-image: url(../assets/radhanath-swami-devotees-bhakti-yoga.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  position: relative;
+}
+
+.g-i-content h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #537292;
+}
+
+.g-i-content p {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #537292;
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.getinvolved-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.getinvolved-content h1 {
+  font-size: 2.2rem;
+  line-height: 4rem;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #537292;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.getinvolved-content p {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #537292;
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+  margin-top: 2rem;
+}
+
+.g-c-i-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.g-c-i-content h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #537292;
+  margin: 2rem;
+}
+
+.g-c-i-content h1 {
+  font-size: 2.3rem;
+  line-height: 4rem;
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #537292;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.g-c-i-content p {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #537292;
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.g-c-i-content button {
+  margin: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  background: transparent;
+  border: 0.08rem solid #537292;
+  outline: none;
+  color: #537292;
+}
+
+.g-c-i-img {
+  background-image: url("../assets/radhanath-swami-projects-worldwide.webp");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.give-back {
+  display: flex;
+  flex-direction: column;
+  background-color: #98abb2;
+}
+
+.giveback-content {
+  text-align: center;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.giveback-content h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  margin: 2rem;
+}
+
+.giveback-content h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+.giveback-container {
+  background-color: #98abb2;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.circlebox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+.box-img img {
+  border-radius: 50%;
+  width: 12rem;
+}
+
+.box-img h2 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  margin-top: 2.5rem;
+}
+
+.box-img p {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  margin-top: 2rem;
+}
